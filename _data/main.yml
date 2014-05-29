@@ -1,4 +1,8 @@
 sections:
+  - id: mine
+    title: Services I Use
+    icon: heart
+
   - id: backup
     title: Backup and Sync
     icon: hdd
