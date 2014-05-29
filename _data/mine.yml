@@ -1,0 +1,248 @@
+websites:
+    - name: Bitbucket
+      url: https://bitbucket.org
+      twitter: bitbucket
+      img: bitbucket.png
+      tfa: No
+      status: https://twitter.com/bitbucket/status/445631335169028096
+
+    - name: GitHub
+      url: https://github.com
+      img: github.png
+      tfa: Yes
+      setup: No
+      sms: Yes
+      software: Yes
+      doc: https://help.github.com/articles/about-two-factor-authentication
+
+    - name: New Relic
+      url: https://newrelic.com
+      twitter: newrelic
+      img: newrelic.png
+      tfa: No
+
+    - name: Zapier
+      url: https://www.zapier.com
+      twitter: zapier
+      img: zapier.png
+      tfa: No
+
+    - name: Dropbox
+      url: https://www.dropbox.com
+      img: dropbox.png
+      tfa: Yes
+      setup: No
+      sms: Yes
+      software: Yes
+      doc: https://www.dropbox.com/help/363/en
+
+    - name: Evernote
+      url: https://evernote.com
+      img: evernote.png
+      tfa: Yes
+      setup: Yes
+      sms: Yes
+      software: Yes
+      doc: http://blog.evernote.com/blog/2013/10/04/two-step-verification-available-to-all-users/
+
+    - name: OpenShift
+      url: https://www.openshift.com/
+      twitter: openshift
+      img: openshift.png
+      tfa: No
+
+    - name: Mailchimp
+      url: https://mailchimp.com/
+      img: mailchimp.png
+      tfa: Yes
+      setup: Yes
+      software: Yes
+      hardware: Yes
+      doc: https://blog.mailchimp.com/alterego-integrations-for-easy-authentication/
+
+    - name: Skype (w/Microsoft Account)
+      url: https://www.skype.com
+      img: skype.png
+      tfa: Yes
+      setup: Yes
+      sms: Yes
+      software: Yes
+      doc: http://windows.microsoft.com/en-au/windows/two-step-verification-faq
+
+    - name: Slack
+      url: http://www.slack.com
+      twitter: SlackHQ
+      img: slack.png
+      tfa: No
+      status: https://twitter.com/SlackHQ/status/448214716192538625
+
+    - name: Gandi
+      url: https://gandi.net
+      img: gandi.png
+      tfa: Yes
+      setup: No
+      software: Yes
+      doc: https://wiki.gandi.net/en/contacts/login/2-factor-activation
+
+    - name: iWantMyName
+      url: https://iwantmyname.com/
+      img: iwantmyname.png
+      tfa: Yes
+      setup: No
+      software: Yes
+      doc: http://help.iwantmyname.com/customer/portal/articles/1139898
+
+    - name: Gmail
+      url: https://gmail.com
+      img: gmail.png
+      tfa: Yes
+      setup: No
+      sms: Yes
+      phone: Yes
+      software: Yes
+      doc: http://www.google.com/intl/en-US/landing/2step/features.html
+
+    - name: Trello
+      url: https://trello.com
+      twitter: trello
+      img: trello.png
+      tfa: No
+
+    - name: Wunderlist
+      url: https://www.wunderlist.com
+      twitter: Wunderlist
+      img: wunderlist.png
+      tfa: No
+
+    - name: GoCardless
+      img: gocardless.png
+      url: https://gocardless.com/
+      twitter: GoCardless
+      tfa: No
+
+    - name: PayPal
+      url: https://www.paypal.com/
+      img: paypal.png
+      tfa: Yes
+      setup: Yes
+      sms: Yes
+      software: Yes
+      hardware: Yes
+      exceptions:
+	  text: "SMS only available in the US."
+      doc: https://www.paypal.com/us/cgi-bin?cmd=xpt/Marketing_CommandDriven/securitycenter/PayPalSecurityKey-outside&bn_r=o
+
+    - name: Stripe
+      img: stripe.png
+      url: https://www.stripe.com/
+      tfa: Yes
+      setup: Yes
+      software: Yes
+      doc: https://stripe.com/blog/two-step-verification
+
+    - name: Join.me (w/ LogMeIn account)
+      url: https://join.me/
+      doc: https://accounts.logme.in/authentication/getstarted.aspx
+      img: joinme.png
+      tfa: Yes
+      setup: Yes
+      goog: Yes
+      email: Yes
+      software: Yes
+
+    - name: Amazon
+      url: https://amazon.com
+      twitter: Amazon
+      img: amazon.png
+      tfa: No
+
+    - name: Apple
+      url: https://appleid.apple.com
+      img: apple.png
+      tfa: Yes
+      setup: Yes
+      sms: Yes
+      software: Yes
+      exceptions:
+	  text: "SMS only available in the US."
+      doc: http://support.apple.com/kb/ht5570
+
+    - name: eBay
+      url: http://ebay.com
+      img: ebay.png
+      tfa: Yes
+      setup: Yes
+      hardware: Yes
+      doc: https://www.paypal.com/cgi-bin/webscr?cmd=xpt/Marketing_CommandDriven/securitycenter/PayPalSecurityKey-outside
+
+    - name: Etsy
+      url: http://www.etsy.com/
+      img: etsy.png
+      sms: Yes
+      tfa: Yes
+      setup: Yes
+      doc: http://www.etsy.com/help/article/3335
+
+    - name: Buffer
+      url: https://bufferapp.com
+      img: bufferapp.png
+      tfa: Yes
+      setup: Yes
+      sms: Yes
+      software: Yes
+      doc: http://blog.bufferapp.com/introducing-the-safest-social-media-publishing-on-the-web
+
+    - name: Facebook
+      url: https://facebook.com
+      img: facebook.png
+      tfa: Yes
+      setup: Yes
+      sms: Yes
+      software: Yes
+      doc: https://www.facebook.com/help/148233965247823
+
+    - name: Google+
+      url: https://plus.google.com
+      img: g+.png
+      tfa: Yes
+      setup: No
+      sms: Yes
+      phone: Yes
+      software: Yes
+      doc: http://www.google.com/intl/en-US/landing/2step/features.html
+
+    - name: LinkedIn
+      url: https://linkedin.com
+      twitter: LinkedIn
+      img: linkedin.png
+      tfa: Yes
+      setup: No
+      sms: Yes
+      doc: https://help.linkedin.com/app/answers/detail/a_id/544/ft/eng
+
+    - name: Reddit
+      url: https://www.reddit.com/
+      twitter: reddit
+      img: reddit.png
+      tfa: No
+      status: https://twitter.com/hueypriest/status/446601146409689088
+
+    - name: Twitter
+      url: https://twitter.com
+      img: twitter.png
+      tfa: Yes
+      setup: Yes
+      sms: Yes
+      exceptions:
+	  text: "SMS only available on select providers, SMS required for 2FA."
+      software: Yes
+      doc: https://support.twitter.com/articles/20170388
+
+    - name: Tumblr
+      url: https://www.tumblr.com/
+      img: tumblr.png
+      tfa: Yes
+      setup: Yes
+      sms: Yes
+      software: Yes
+      doc: https://www.tumblr.com/docs/en/two_factor_auth
