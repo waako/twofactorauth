@@ -14,7 +14,7 @@ websites:
       tfa: No
       twitter: desura
 
-	- name: Elder Scrolls Online
+    - name: Elder Scrolls Online
       url: http://www.elderscrollsonline.com/
       twitter: TESOnline
       img: eso.png
