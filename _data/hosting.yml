@@ -1,4 +1,10 @@
 websites:
+    - name: CloudShards
+      url: https://www.cloudshards.com/
+      img: cloudshards.png
+      twitter: CloudShards
+      tfa: No
+
     - name: DigitalOcean
       url: https://www.digitalocean.com/
       img: digitalocean.png
@@ -12,6 +18,18 @@ websites:
       tfa: Yes
       software: Yes
       doc: http://wiki.dreamhost.com/Enabling_Multifactor_Authentication
+
+    - name: ChunkHost
+      url: https://chunkhost.com
+      img: chunkhost.png
+      tfa: Yes
+      software: Yes
+
+    - name: iPage
+      url: http://www.ipage.com/ipage/index.html
+      twitter: iPage
+      img: ipage.png
+      tfa: No
 
     - name: Linode
       url: https://www.linode.com/
