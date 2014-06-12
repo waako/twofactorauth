@@ -17,7 +17,7 @@ websites:
       tfa: Yes
       software: Yes
       hardware: Yes
-      doc: https://identity.atechmedia.com/2factor
+      doc: https://atechmedia.com/blog/general/launches/two-factor-authentication
 
     - name: Amazon Web Services
       url: https://aws.amazon.com
